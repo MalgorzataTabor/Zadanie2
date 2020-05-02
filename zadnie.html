@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang ="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Arkusz </title>
+        <script src="zadanie.js"></script>
+    </head>
+    <body>
+        
+        <link rel="stylesheet" href="zadanie.css">
+
+         
+
+
+            <div id="Container">
+            
+     <from action="egreement" method="get">
+
+
+            <div>
+
+            <label for="firstname">Imię i nazwisko</label><br>
+            <input class="belka"  type="text" placeholder="Pole wymagane" name="firstname" filed id="field-firstname" required /><br><br>
+
+            <label for="email">Adres e-mail</label><br>
+           <input class="belka" type="email" name="firstname"placeholder="Pole wymagane" id="field-firstname" required/><br><br>
+
+           <label for="tel">Podaj nr telefony</label><br>
+           <input class="belka" type="tel" name="telefon" placeholder="601-102-203" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"  /><br><br>
+           
+
+           
+            
+            <input type="radio" name="agreement" id="agreement" />
+            <label  for="agreement">Wyrażam zgodę pierwszą</label> <br>
+            
+            <input type="radio" name="agreement" id="agreement" />
+            <label for="agreement">Wyrażam zgodę drugą</label> <br>
+            
+        
+            <input type="radio" name="agreement" id="agreement" />
+            <label for="agreement">Wyrażam zgodę trzecią </label> <br>
+    
+
+           
+            <div id="submit">     <input type="submit" value="Wyślij" onclick="window.alert('To jest obsługa zdarzenia po przycisku myszki ')"/> </div>
+
+          
+        </div>
+
+    </from>
+
+
+
+     
+
+
+
+
+    </body>
+ </html>
